@@ -1,0 +1,133 @@
+recipe website.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipe Website
+        </title>
+        <style>
+            body {
+                background-color:white;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: scroll;
+            }
+            h1 {
+                font-size: 50px;
+                color: brown;
+                text-align: center;
+            }
+            h2 {
+                font-size: 40px;
+                text-align: left;                
+            }
+            #p1 {
+                text-align: justify;  
+                text-indent: bolder; 
+                color: white;
+                background-color: brown;
+                font-size: 30px; 
+            }
+            p {
+                text-align: center;  
+                text-indent: bolder; 
+                font-size: 40px; 
+                background-color: rgba(255, 255, 255, 0.8);
+            }
+            #sidebar {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 350px;
+                height: 100%;
+                background-color: brown;
+                padding-top: 20px;
+            }
+            .a1 {
+                padding: 10px;
+                font-size: 30px;
+            }
+            #ch {
+                background-color: white;
+                font-size: 25px;
+                margin-bottom: 10px;
+                width: 80%;
+            }
+            .recipe-item {
+                display: flex;
+                align-items: flex-start;
+                gap: 20px;
+                margin-bottom: 30px;
+            }
+            .recipe-item img {
+                display: block;
+                width: 40%;
+                max-width: 200px;
+                height: auto;
+                flex-shrink: 0;
+            }
+            .recipe-item p {
+                flex: 1;
+                text-align: justify;
+                font-size: 30px;
+                margin: 0;
+                color: white;
+                background-color: brown;
+            }
+            .content {
+                background-color: #F5F5DC;
+                flex: 1;
+                margin-left: 350px;
+                padding: 20px;
+            }
+            hr {
+                border: 1px solid brown;
+                margin: 20px 0;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <nav id="sidebar">
+            <ul>
+                <li id="ch">CHOOSE THE SNACKS</li>
+                <li><a class="a1" href="ls.html">LUMPIANG SHANGHAI</a></li>
+                <li><a class="a1" href="lg.html">LUMPIANG GULAY</a></li>
+                <li><a class="a1" href="pn.html">PANDESAL</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+        <header>
+        <h1>WELCOME TO THE RECIPE'S WEBSITE</h1>
+        </header>
+
+        <br>    
+        <hr>
+        <h2>What is this website about?</h2>
+        <hr>
+        <p id="p1">This website features the top three popular Filipino snack recipes: Lumpiang Shanghai, Lumpiang Gulay, and Pandesal. It is designed to help users learn how to prepare these classic snacks through easy-to-follow recipes, ingredient lists, and step-by-step cooking instructions. The website also provides information about the history and cultural significance of each dish, allowing visitors to appreciate the rich culinary traditions of the Philippines. With a simple and user-friendly design, the website is ideal for students, home cooks, and anyone interested in exploring authentic Filipino snacks and bringing the flavors of the Philippines into their own kitchen.</p>
+        <br>
+        <hr>
+        <h2>THE TOP 3 FAMOUS FILIPINO SNACKS</h2>
+        <hr>
+        <br>
+        <div class="recipe-item">
+        <hr>
+            <img src="sh.jpg" alt="Lumpiang Shanghai">
+            <p>Lumpiang Shanghai is one of the most popular Filipino dishes, often served during birthdays, fiestas, holidays, and family gatherings. It is made by wrapping a flavorful mixture of ground pork, finely chopped vegetables such as carrots and onions, and seasonings in a thin lumpia wrapper before being deep-fried until golden brown and crispy. It is usually served with sweet chili sauce, banana ketchup, or vinegar for added flavor. Loved by both children and adults, Lumpiang Shanghai is valued for its crunchy texture, savory filling, and delicious taste. More than just a dish, it represents Filipino hospitality and the joy of sharing good food with family and friends during special occasions.</p>
+        </div>
+        <hr>
+        <div class="recipe-item">
+            <img src="ls.jpg" alt="Lumpiang Gulay">
+            <p>Lumpiang Gulay is a traditional Filipino dish made from a mixture of ground meat or seafood, vegetables, and seasonings wrapped in a thin lumpia wrapper and deep-fried until golden brown and crispy. It is commonly served during special occasions and family gatherings, offering a delightful combination of textures and flavors that showcase the rich culinary heritage of the Philippines.</p>
+        </div>
+        <hr>
+        <div class="recipe-item">
+            <img src="pn.jpg" alt="Pandesal">
+            <p>Pandesal is a popular Filipino bread roll that is soft, fluffy, and slightly sweet. It is typically enjoyed for breakfast or as a snack, often paired with coffee, hot chocolate, or savory fillings such as cheese, butter, or jam. Pandesal is a staple in Filipino households and bakeries, known for its comforting taste and versatility in various culinary applications.</p>
+        </div>
+        <hr>
+        <footer>
+            <p>&copy; 2024 Recipe Website. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
